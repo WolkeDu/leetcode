@@ -45,8 +45,4 @@ public:
 		}
 		return table[!flag][wid-1];
     }
-	void swap(bool*& a, bool*& b){
-		bool* tmp;
-		tmp = a; a = b; b = tmp;
-	}
 };
