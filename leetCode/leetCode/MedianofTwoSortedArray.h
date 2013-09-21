@@ -9,7 +9,7 @@ public:
 	#define MIN -2147483647-1
     #define FOR(i,m,n) for(int i = int(m); i< int(n); i++)
     double findMedianSortedArrays(int A[], int m, int B[], int n) {
-		if(m == 0 && n == 0) return NULL;
+		if(m == 0 && n == 0) return 0;
 		if( m == 0 )
 			return getMedian(B,n);
 		else if(n == 0)
