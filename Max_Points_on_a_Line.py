@@ -12,4 +12,6 @@ class Solution:
         if len(points) == 0:
             return 0
         dictg = {}
-        
+         
+
+        return -1
